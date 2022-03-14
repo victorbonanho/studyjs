@@ -34,4 +34,4 @@ console.log(nome2 + 1); //O valor de nome2 é convertido para 0
 //Const
 const aula = "JS"; //Esse valor não pode ser alterado por causa da const
 //const aula2; //Dará erro pois a const pede um valor
-//
+//teste2
