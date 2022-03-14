@@ -44,7 +44,7 @@ console.log(++numero); //Resultado: 10
 
 console.log( 11 != 21 ); // vai imprimir true
 console.log( 100 != 100); // vai imprimir false
-console.log(  “20” == 20  ); // true
+//console.log(“20” == 0); // true
 console.log(  true == 1 ) ; // true
 
 //Igualdade e desigualdade restrita
