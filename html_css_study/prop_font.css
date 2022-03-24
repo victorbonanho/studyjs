@@ -1,0 +1,354 @@
+h1 {
+    font-size: 22px;
+    text-align: right;
+}
+
+h2 {
+    font-size: 18px;
+    color: #88100f;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 16px;
+    text-decoration: overline;
+    color: #88100f;
+}
+
+p {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+h1 {
+    font-size: 48px;
+    color: blue;
+}
+
+p {
+    font-size: 20px;
+    background-color: yellow;
+    margin: 60px;
+}
+
+img {
+    height: 375px;
+    width: 500px;
+}
+
+div {
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Verdana;
+}
+
+/*top,right,bottom,left*/
+div {
+    margin: 70px 20px 10px 60px;
+}
+
+/*top & bottom and left & right*/
+div {
+    margin: 10px 15px;
+    color: rgb(red, green, blue);
+}
+
+/*top & bottom and left & right*/
+div {
+    width: 600px;
+    margin: 10px auto;
+    border-left: 3px dotted #009200;
+    border-bottom: 3px solid #009200;
+}
+
+/*superior esquerdo, superior direito, inferior direito, inferior esquerdo*/
+div {
+    margin: 0;
+    border-radius: 0 25px 25px 0;
+}
+
+div {
+    width: 600px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #454545;
+    padding: 15px 40px;
+}
+
+img {
+    width: 500px;
+    border: 5px dashed #009200;
+    padding: 20px;
+}
+
+span {
+    font-family: Verdana;
+    font-size: 24px;
+    background-color: #3198c2;
+    color: #ffffff;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+
+div {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #ff1415;
+    padding: 30px 60px 80px 60px;
+    border-radius: 15px;
+}
+
+/*União de estilos*/
+span, li, a {
+    font-size: 24px;
+    font-family: Verdana;
+    color: #2255ee;
+}
+
+.texto-temporada {
+    color: #212121;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/*Seletor de descendentes*/
+div p {
+    font-weight: bold;
+    color: red;
+}
+
+.secao-conteudo .texto {
+    color: #109ce3;
+    border-left: 5px solid #109ce3;
+    padding-left: 10px;
+}
+
+.texto-filme span {
+    font-weight: bold;
+}
+
+p .texto-destaque {
+    font-weight: normal;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Imagem de plano de funco*/
+div { 
+    background-color: yellow; 
+    background-image: url(../imagem/plano-de-fundo.jpeg); 
+    background-repeat: no-repeat;
+    background-position: 10px center; /*Se deslocará 10px no eixo x e estará centralizada no eixo y*/
+    background: yellow url(../imagem/plano-de-fundo.jpeg) no-repeat 10px center;
+    background-size: 16px auto; /*16px de largura e altura ajustável para não ficar distorcida*/
+    background-size: contain; /*Ocupa todo o espaço disponível*/
+    background-size: cover; /*Cobre todo espaço interno do elemento e cortando a imagem se precisar*/
+    background-attachment: fixed; /*imagem fixa*/
+    background-attachment: local; /*Acompanhar a rolagegm da página, só funciona quando atribuímos uma imagem ao elemento*/
+}
+
+blockquote {
+    min-width: 400px; /*Máximo de contração*/
+    max-width: 200px; /*Não deve crescer mais do que o valor indicado*/
+}
+
+blockquote {
+    min-height: 200px; /*Não deixa o texto se juntar por exemplo*/
+    max-height: 14px; /*Altura máxima da tela*/
+}
+
+img {
+    width: 50vw; /*50% do valor da largura da tela*/
+    height: 50vh; /*50% da altura da tela*/
+}
+
+p {
+    width: calc( 100vw - 200px ); /*o valor total da janela(100%) menos 200px*/
+}
+
+p {
+    width: 50%;
+}
+
+blockquote {
+    height: 29px;
+    overflow: hidden;
+}
+
+blockquote {
+    height: 29px;
+    overflow: scroll; /*barra de rolagem para que o conteúdo possa ser visto*/
+}
+
+blockquote {
+    border-top-width: thick;
+    border-bottom-width: 5px;
+    border-left-width: 25px;
+    border-right-width: 50px;
+    border-style: solid;
+}
+
+blockquote {
+    border-width: 4px;
+    border-style: dotted;
+    border-top-color: black;
+    border-bottom-color: blue;
+    border-left-color: red;
+    border-right-color: green;
+}
+
+div {
+    border-width: thin;
+  }
+
+#div1{
+    width:100px;
+    height:100px;
+    border:solid 1px;
+    box-shadow: 10px 10px 10px 5px black; /*posicão horizontal, vertical, blur(borrão(opcional)) spread(tamanho da sombra(opcional)), cor e inset(define se a sombra é interna(opcional))*/
+    text-transform: uppercase;
+    transform: scale(1.05);
+}
+
+#div1{
+    width:100px;
+    height:100px;
+    border-width:10px;
+    border-image:url(border.png) 30 30 repeat;
+    -moz-border-image:url(border.png) 30 30 repeat; /* Firefox */
+    -webkit-border-image:url(border.png) 30 30 repeat; /* Safari e Chrome */
+    -o-border-image:url(border.png) 30 30 repeat; /* Opera */
+}
+
+blockquote {
+    visibility: visible;
+    visibility: hidden;
+    /* Plano de fundo em vermelho e opacidade de 50% */
+    background-color: rgba(255,0,0,0.5);
+    background-image: url("pasta/Imagem.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-position: 20% 40%;    /* 20% à direita e 40% abaixo */
+    background-position: 30px 60px;  /* 30px à direita e 60px abaixo */
+    background-position: 20px 40%;   /* 20px à direita e 40% abaixo */
+    background-image: url("pasta/Imagem1.jpg"), url("pasta/Imagem2.jpg");
+    background-image: url("pasta/Imagem1.jpg"), url("pasta/Imagem2.jpg");
+    background-repeat: no-repeat, repeat-x;
+    background-position: top right, center;
+    background-size: 80px 60px;  /* 80 pixels de largura e 60 pixels de altura */
+    background-size: 300px;  /* 300 pixels de largura e altura automática */
+    background-size: cover; /*cover, contain, inherit(valor definido pelo pai), initial(valor padrão)*/
+    background-size: 50%;
+    background-origin: padding-box;
+    background-clip: border-box; /*Definir onde deseja colorir*/
+    background-blend-mode: darken; /*Filtros para imagegns pré definidos ex: mutiply, luminosity*/
+}
+
+h3, blockquote, p {
+    display: inline; /*Coloca os elementos em linha*/
+    display: block; /*Um elemento inline se comporte como um bloco*/
+    display: none; /*Sensação de que o elemento foi removido da página a diferença é que o visibility hidden fique oculto porém parecendo que algo está no lugar dele*/
+}
+
+body{ 
+    background-image: url('bg.jpg'); 
+}
+img { 
+    opacity : 0.5; 
+}
+
+div { 
+    width: 100px;
+    height: 100px;
+    border:1px solid black;
+    float: left;
+    margin-right: 100px; 
+}
+
+#box1 { 
+    box-shadow: 20px 20px
+}
+
+#box2 { 
+    box-shadow: 20px 20px 10px 
+}
+
+#box3 { 
+    box-shadow: 20px 20px 10px blue 
+}
+
+#titulo1 { 
+    text-shadow: 10px 10px; 
+}
+
+#titulo2 { 
+    text-shadow: 10px 10px 5px; 
+}
+
+#titulo3 { 
+    text-shadow: 10px 10px 5px blue; 
+}
+
+p {
+    width: 200px;
+    position: static;
+    position: relative;
+    position: fixed;
+    position: absolute;
+  }
+
+  p {
+     left: 25px;
+     position: relative;
+     bottom: 25px;
+}
+
+h3 {
+    float: left;
+    width: 200px;
+}
+    
+ul {
+    float: right;
+    width: 200px;
+}
+
+/*Corrigir problema da altura 0px*/
+div {
+    border: 1px solid #000;
+    overflow: auto;
+    width: 100%;
+    z-index:4;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /*row, row reverse, column, column-reverse*/
+    flex-wrap: wrap; /*nowrap, flex-start, flex-end, center, space-around, space-between*/
+}
+
+/*Centralizando uma div*/
+body {
+    margin: 0px
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.box {
+    width: 300px;
+    height: 300px;
+    background: #fff;
+}

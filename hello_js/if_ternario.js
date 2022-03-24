@@ -9,7 +9,7 @@ else {
 
 //If ternário
 //Exemplo 1
-var status = nota > 7 ? "Aprovado" : "Reprovado";
+var status = (nota > 7) ? "Aprovado" : "Reprovado";
 
 //Exemplo2
 var mensagem = (mes == 11 || mes == 12) ? "Promoção" : "Preço normal";

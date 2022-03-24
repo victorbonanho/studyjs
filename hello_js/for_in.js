@@ -19,7 +19,7 @@ console.log(dados);
 
 
 
-/*
+
 let carro = { nome: "Argo", marca: "Fiat", preco: 50000, ano: 2020 };
 
 let percentual_desconto = 5;
@@ -50,7 +50,7 @@ for ( let propriedade in carro ) {
 // ano: 2020
 
 //Ou seja o for .. in vavi percorrer todo o objeto
-*/
+
 
 //Exemplo prático
 let produtos = [
