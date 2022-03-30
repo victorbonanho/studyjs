@@ -35,3 +35,13 @@ console.log(nome2 + 1); //O valor de nome2 é convertido para 0
 const aula = "JS"; //Esse valor não pode ser alterado por causa da const
 //const aula2; //Dará erro pois a const pede um valor
 //teste2
+
+const dataAtual1 = new Date();
+console.log( dataAtual1.getFullYear() );
+console.log( dataAtual1.getMonth() );
+console.log( dataAtual1.getDate() );
+console.log( dataAtual1.getHours() );
+console.log( dataAtual1.getMinutes() );
+console.log( dataAtual1.getSeconds() );
+console.log( dataAtual1.getMilliseconds() );
+console.log( dataAtual1.getDay() );
